@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap" rel="stylesheet">
+        <title>Profile Card</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="title">
+            <h1 class="heading">view out Featured Speaker for the Event</h1>
+            <p class="paragraph">spearers are core contributors and industry
+                throught working at <span>companies</span> that
+                push for innovation</p>
+        </div>
+
+        <div class="hero-card" id="horizontalCard">
+            <div class="close-icon" onclick="hideHorizontalCard()">&times;</div>
+            <div class="left-content">
+                <img src="" alt="Profile Image" class="profile-image" id="hCardImage">
+                <div class="info">
+                    <h2 class="card__name" id="hCardName">Name Here</h2>
+                    <h4  class="card__title" id="hCardPosition">Position Here</h4>
+                    <h5  class="card__company" id="hCardCompany">Company Name Here</h5>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com" target="_blank"><img src="/assets/fire.png" alt="f" class="social_image" ></a>
+                        <a href="https://www.twitter.com" target="_blank"><img src="/assets/x.png" alt="" class="social_image"></a>
+                        <a href="https://www.instagram.com" target="_blank"><img src="/assets/linkedin.png" alt=""  class="social_image" ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-content">
+                <p id="hCardDescription">Description here.</p>
+            </div>
+        </div> 
+
+
+
+         <div class="slider">
+            <button class="arrow left-arrow" id="leftArrow">&#10094;</button>
+            <div class="container" id="cardContainer"></div>
+            <button class="arrow right-arrow" id="rightArrow">&#10095;</button>
+        </div>
+
+        <div class="card__footer">
+            <button class="card__button card__button--primary">See the progress
+            </button>
+        </div>
+
+        <!-- <div class="card" id="profileCard">
+            <img class="card__image" src="/assets/profile.png" alt="John Doe">
+            <div class="card__info"> <h2 class="card__name">John Doe</h2>
+                <p class="card__title">Chief Marketing Officer</p>
+                <p class="card__company">Specbee</p>
+                <div class="card__socials">
+                    <a href="#" class="card__social">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="card__social"><i
+                            class="fab fa-twitter"></i></a> <a href="#"
+                        class="card__social"><i class="fab fa-facebook"></i></a>
+                </div> </div> <button class="card__button"
+                id="moreInfoButton">More Info</button> </div> -->
+                
+                <!-- //model 
+                <div id="myModal" class="modal">
+                     <div class="modal-content">
+                         <span class="close">&times;</span>
+                          <img class="modal-img" src="profile.jpg" alt="John Doe">
+                           <h2 class="modal-title">John Doe</h2>
+                            <p class="modal-title">Chief Marketing Officer</p>
+                             <p class="modal-company">Specbee</p> 
+
+                             <p class="modal-description"> Monotonectally synergize business communities rather than client-centric convergence. Assertively unleash cross-platform best practices rather than pandemic total linkage. Synergistically monetize parallel infomediaries whereas 2.0 mindshare. Dramatically pursue real-time markets through e-business strategic theme areas. </p>
+                 </div>
+                 </div> -->
+
+                 
+            <script src="script.js"></script>
+
+        </body>
+
+    </html>
